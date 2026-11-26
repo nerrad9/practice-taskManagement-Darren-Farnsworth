@@ -1,11 +1,16 @@
 import TaskList from "./components/TaskList.jsx"
 import TaskDetail from "./components/TaskDetail.jsx"
+import {Routes, Route} from "react-router"
+import "./App.css"
 
 function App() {
   
   return (
     <>
-      <p>hi :3</p>
+    <Routes>
+      <Route path = "/" element = {<TaskList/>}/>
+      <Route path = "/details/:id" element = {<TaskDetail/>}/>
+    </Routes>
     </>
   )
 }
