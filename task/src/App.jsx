@@ -1,10 +1,11 @@
-
+import TaskList from "./components/TaskList.jsx"
+import TaskDetail from "./components/TaskDetail.jsx"
 
 function App() {
   
   return (
     <>
-
+      <p>hi :3</p>
     </>
   )
 }
